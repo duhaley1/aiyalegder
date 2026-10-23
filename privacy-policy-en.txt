@@ -1,14 +1,14 @@
 Aiya Ledger Privacy Policy
 
-Updated and effective: 21 October 2026
-Applies to: Aiya Ledger 1.2.0 for iOS
+Updated and effective: 23 October 2026
+Applies to: Aiya Ledger 1.4.0 for iOS
 Publisher: duhaley, individual developer
 Privacy and support: 924323178@qq.com
 
 Aiya Ledger is a personal bookkeeping app that does not require an app account. This policy explains how the app handles data, the choices you have and how to contact us.
 
 1. Local records and statement imports
-Account names, currencies, balances, income, expenses, categories, dates, notes, budgets, templates, recurring bills and preferences stay on your device for bookkeeping, reports and reminders. The publisher does not operate a ledger server, and the app does not automatically send your ledger to the publisher.
+Account names, currencies, balances, income, expenses, custom categories and tags, dates, notes, budgets, templates, recurring bills, classification rules, savings goals and movements, and preferences stay on your device for bookkeeping, reports and reminders. The publisher does not operate a ledger server, and the app does not automatically send your ledger to the publisher.
 CSV / XLSX statements you select are parsed on your device. Import sources, transaction references, merchants, payment methods and file fingerprints support duplicate review and provenance and are included in complete JSON backups. The app does not automatically upload statements to Alipay, WeChat or banks, request bank or payment-platform passwords, read SMS messages or contacts, or fetch statements from other apps.
 
 2. Backups and sharing you choose
@@ -35,3 +35,9 @@ The publisher will choose a website to host this policy. Website logs, cookies a
 7. Children and changes
 The app is not specifically directed to children and does not deliberately collect child identity information. Minors should manage devices, backups and purchases with a guardian's guidance.
 We will update this policy and its date when features or data practices change, with notices in the app or policy page where appropriate. Contact 924323178@qq.com for privacy questions.
+
+8. Apple Watch companion
+When you install and open the companion, the paired iPhone and Apple Watch use system Watch Connectivity to exchange monthly income, expense and budget summaries, account, category and tag options, spending-review and savings-goal summaries for unlocked Pro users, theme, language and hidden-amount preferences. Newly sent summaries omit amounts when hiding is enabled. Entries you confirm on the watch stay locally pending until the phone validates and saves them; connectivity, closed apps or changed accounts may delay delivery. Random request IDs are stored and backed up with the ledger to prevent duplicate entries, not to track identity. Processed IDs survive local clearing or restoration so delayed messages cannot recreate entries. Uninstalling may remove unsynced entries; sync first. This does not send data to the publisher, make real payments, or provide cloud backup or purchasing on the watch.
+
+9. Home Screen widgets
+Widgets use an on-device App Group shared only by this app and its widget extension. The shared snapshot contains the displayed currency, theme, language, update time, monthly budget and daily income/expense totals, without account names, notes or full entries. When hiding amounts is enabled, newly published snapshots omit all amounts. WidgetKit controls refresh timing, so a previous snapshot may remain visible briefly. Open the app to request a refresh. Widget links open the calendar or entry editor; they do not save entries automatically. No widget data is sent to the developer.
