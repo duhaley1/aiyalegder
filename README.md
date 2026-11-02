@@ -9,7 +9,7 @@ A little note. A clearer day. Personal bookkeeping without an app account. This 
 - 开发者：duhaley（个人开发者 / individual developer）
 - 支持与隐私邮箱 / Support and privacy: **924323178@qq.com**
 
-如需帮助，请通过邮箱联系，或在 [Issues](https://gitcode.com/duhaley/aiyalegder/issues) 描述问题。请提供应用版本、设备型号、系统版本、操作步骤及错误提示。截图请遮挡私人资料。请勿发送密码、Apple 验证码、完整银行卡号或完整账本。公开 Issue 中的内容可被其他人看到。
+如需帮助，请通过邮箱联系，或在 [Issues](https://github.com/duhaley1/aiyalegder/issues) 描述问题。请提供应用版本、设备型号、系统版本、操作步骤及错误提示。截图请遮挡私人资料。请勿发送密码、Apple 验证码、完整银行卡号或完整账本。公开 Issue 中的内容可被其他人看到。
 
 For help, email us or open an Issue with your app version, device, OS version, steps and error message. Redact personal information. Never send passwords, Apple verification codes, full card numbers or complete ledgers. Issues are public.
 
@@ -65,7 +65,7 @@ Ledger and exported files are not encrypted by the app. Hiding amounts only mask
 
 ## 隐私政策 / Privacy policy
 
-- [简体中文政策全文](https://raw.gitcode.com/duhaley/aiyalegder/raw/main/privacy-policy-zh.txt)
-- [English privacy policy](https://raw.gitcode.com/duhaley/aiyalegder/raw/main/privacy-policy-en.txt)
+- [简体中文政策全文](https://duhaley1.github.io/aiyalegder/privacy-policy.html)
+- [English privacy policy](https://duhaley1.github.io/aiyalegder/privacy-policy-en.html)
 
 此仓库用于支持与隐私政策，不要求上传或公开个人账本。This repository provides support and privacy information; you do not need to publish your ledger.
