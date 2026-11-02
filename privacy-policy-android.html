@@ -53,6 +53,16 @@ Android 版通过 Google Play Billing 提供可选的一次买断 Pro 内购。�
 应用在设备私有空间保留签名购买凭据和最近核对时间，用于最多七天的离线权益；不写入账本或 JSON/云备份，系统备份和迁移也排除此资料。联网成功查询后重新核对权益；已撤销或不存在的购买不会继续授予权益。离线无法即时获知退款、撤销或商店账户变化，请联网刷新或恢复。Apple 与 Google Play 购买分别由各自商店管理，不自动互通。当前没有开发者自建购买验证服务器，运营者不接收购买令牌或付款资料。
 Android 的手动 WebDAV/文件备份与既有本地记账遵循本政策；iCloud、Apple Watch 与 iOS 桌面组件为苹果平台功能，Android 不提供这些苹果服务。Google 对商店及交易信息的处理适用 Google 隐私政策：https://policies.google.com/privacy 。
 
+13. 最新参考汇率
+您打开参考汇率页面或刷新时，应用可直接向 Frankfurter（https://frankfurter.dev/，接口域名 api.frankfurter.dev）查询所选币种的综合参考汇率。服务及其网络基础设施会接收完成连接所需的网络信息（如 IP 地址）和币种对；输入金额在设备本地计算，不发送账单、账户名称、余额、备注或输入金额。数据日期、汇率及获取时间缓存在本机，与账本分开，不纳入账本备份；可在无网络时显示旧数据并标注。参考汇率通常每日更新，不是实时成交价，不会自动修改账本金额。接口服务详情请查看 https://frankfurter.dev/ 。
+应用也可查询并在本机缓存该服务支持的货币清单；离线时使用缓存或应用内置清单。
+
+14. 未完成的记账草稿
+新建记账时，金额、账户与分类选择、日期、备注、标签和已选附件可暂存于设备本地，按账本隔离，不会自动生成流水。重新打开时由您选择恢复或丢弃；成功记账后清除对应草稿。草稿不属于 JSON、CSV 或云端账本备份，不发送给运营者、汇率服务或手表。草稿尚未落盘或设备存储故障时可能无法保留最新输入；卸载或清理应用资料也可能丢失草稿。编辑已有账目的离开确认不会自动修改原账目。
+
+15. 本机显示偏好、备份状态与地区币种
+参考汇率的最近货币对和收藏保存在本机，独立于账本备份，不保存输入金额。只有主动点击复制才会将参考结果、来源及日期写入系统剪贴板，请留意系统和其他应用的剪贴板访问。备份状态保存在本机，包括文件标识、时间、内容摘要和服务器地址的哈希，不保存云端凭据或额外上传账目；这是上次观察记录，不保证云端文件当前仍存在，分享成功不代表已保存。首次安装读取设备地区和系统货币配置以初始化本地账户，不请求定位权限、不使用GPS或IP定位，不覆盖已有账本币种。储蓄进度和预算提示在本机计算；在Pro已解锁且金额可见时，配对手表可收到待关注计划数量，不发送目标备注或附件。
+
 
 ----- English -----
 
@@ -110,4 +120,14 @@ JPG, PNG and PDF receipts you choose are stored locally with entries and include
 Android offers optional one-time Pro access through Google Play Billing. Google handles payments and store accounts. The app does not read Google passwords or payment-card details, or upload ledger records to Google. It queries products and purchase status from Google Play and locally checks the app package, product and Google-signed purchase receipt. Delivery is acknowledged to Google.
 Signed receipts and the last successful verification time stay in private device storage for up to seven days of offline access. They are excluded from ledger/JSON/cloud backups and system backup/device transfer. A successful online query recalculates access; revoked or absent purchases no longer grant access. Offline use cannot immediately detect refunds, revocation or store-account changes; reconnect to refresh or restore. Apple and Google Play purchases are managed separately and do not automatically transfer. There is currently no developer-operated purchase-verification server; the operator does not receive purchase tokens or payment details.
 Manual Android WebDAV/file backups and local bookkeeping follow this policy. iCloud, Apple Watch and iOS widgets are Apple-platform features and are not provided on Android. Google&#x27;s processing of store and transaction information follows its privacy policy: https://policies.google.com/privacy .
+
+13. Latest reference exchange rates
+Opening or refreshing the reference-rate page may query Frankfurter (https://frankfurter.dev/, API host api.frankfurter.dev) directly for the selected currency pair. The service and its network infrastructure receive the currency pair and network information needed for the connection, such as an IP address. Conversion is calculated on your device; entries, account names, balances, notes and entered amounts are not sent. Rates, data dates and retrieval times are cached locally, separate from the ledger and excluded from ledger backups. Saved data may be displayed with a notice when offline. These are usually daily reference rates, not live dealing prices, and never automatically change ledger amounts. Service information: https://frankfurter.dev/ .
+The app may also request and locally cache the service currency catalogue; offline selection uses cached or bundled names.
+
+14. Unfinished entry drafts
+New-entry amounts, account/category selections, dates, notes, tags and selected attachments may be saved locally per ledger. Drafts never post transactions automatically. You choose whether to restore or discard them; a successful entry consumes its draft. Drafts are excluded from JSON/CSV/cloud ledger backups and are not sent to the operator, exchange-rate service or watch. Input not yet written, storage failures, uninstalling or clearing app data may lose drafts. Leaving an existing-entry edit does not automatically modify the saved entry.
+
+15. Local preferences, backup status and regional currency
+The last reference currency pair and favorites stay locally, separate from ledger backups; entered amounts are not stored in these preferences. Only an explicit copy action writes the result, source and date to the system clipboard; consider access by your system and other apps. Local backup status includes file identifiers, timestamps, content digests and hashed server addresses, not cloud credentials or an additional upload of ledger data. It is a last-observed record, not a guarantee that a cloud file still exists; successful sharing does not confirm saving. On first installation the app reads device region and system currency settings to initialize local accounts, without location permission, GPS or IP geolocation, and never overrides existing ledger currencies. Savings pace and budget reminders are calculated locally. A paired watch may receive counts of plans needing attention only when Pro is active and amounts are visible, without goal notes or attachments.
 </pre></main><footer>duhaley · <a href="mailto:924323178@qq.com">924323178@qq.com</a> · Hosted on GitHub Pages</footer></html>

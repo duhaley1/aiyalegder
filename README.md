@@ -1,5 +1,8 @@
 # 哎呀记账 · Aiya Ledger
 
+> 本仓库从 GitCode 迁移并保留全部历史。当前支持入口：[支持网站](https://duhaley1.github.io/aiyalegder/)。以下早期功能说明保留供参考，实际权益以应用内页面为准。
+> Migrated from GitCode with full history. [Current support website](https://duhaley1.github.io/aiyalegder/). Historical feature descriptions below are retained for reference; the app shows current availability.
+
 哎呀，记一笔就好。无需注册的个人记账工具，记录收支、管理账户、查看日历、预算与统计。以下说明适用 1.4.0；实际可下载版本以 App Store 为准。
 
 A little note. A clearer day. Personal bookkeeping without an app account. This documentation describes version 1.4.0; the App Store determines the version currently available.

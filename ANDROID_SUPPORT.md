@@ -27,4 +27,4 @@ Android 不提供 iCloud、Apple Watch 或 iOS 小组件；这些属于苹果版
 
 Aiya Ledger for Android is in Google Play internal testing; the store determines public availability. Free offline bookkeeping, calendar, accounts, local statement imports and manual JSON/WebDAV backups require no app account. Optional non-consumable lifetime Pro unlocks all 13 tools and Aurelia. The base price is US$4.99; local prices are shown by Google Play. No auto-renewal. Restore in Settings > Aiya Pro using the original Google Play account. Apple purchases are separate. Verified local receipts permit up to seven days offline Pro access; reconnect to refresh. Free bookkeeping has no such time limit. Export a complete backup before uninstalling. Android does not include Apple-only iCloud, Apple Watch or iOS widgets. Contact 924323178@qq.com with redacted steps and device/app versions, never passwords or complete ledgers.
 
-[隐私政策 / Bilingual privacy policy](https://raw.gitcode.com/duhaley/aiyalegder/raw/main/privacy-policy-android.txt)
+[隐私政策 / Bilingual privacy policy](https://duhaley1.github.io/aiyalegder/privacy-policy-android.html)
