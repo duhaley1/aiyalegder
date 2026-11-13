@@ -20,8 +20,8 @@ Settings → Data management provides complete JSON backups and manual iCloud Dr
 
 ## 恢复 Pro / Restore Pro
 
-使用原购买 Apple 账户，在「设置 → 哎呀 Pro → 恢复购买」操作。Pro 是可选非消耗型一次买断，无自动续费。恢复账本不授予购买权益；购买与退款由 Apple 处理。
-Use the original Apple account in Settings → Aiya Pro → Restore Purchases. Pro is an optional non-consumable one-time purchase with no automatic renewal. Restoring ledger data does not grant Pro; Apple handles purchases and refunds.
+使用原购买 Apple 账户，在「设置 → 哎呀 Pro → 恢复购买」操作。Pro 提供永久买断及月／年自动续订方案，价格与周期以商店为准。可在 Apple 订阅管理中取消续费。恢复账本不授予购买权益；购买与退款由 Apple 处理。
+Use the original Apple account in Settings → Aiya Pro → Restore Purchases. Pro offers a lifetime purchase and monthly/yearly auto-renewing subscriptions at store-confirmed prices and periods. Cancel renewal in Apple subscription management. Restoring ledger data does not grant Pro; Apple handles purchases and refunds.
 
 ## 手表 / Watch
 

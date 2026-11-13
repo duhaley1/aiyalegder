@@ -1,6 +1,6 @@
 Aiya Ledger Privacy Policy
 
-Updated and effective: 3 November 2026
+Updated and effective: 13 November 2026
 Applies to: Aiya Ledger for iOS, iPadOS and watchOS
 Publisher: duhaley, individual developer
 Privacy and support: 924323178@qq.com
@@ -16,7 +16,7 @@ You can manually export complete JSON backups or CSV files, or save and restore 
 WebDAV addresses, usernames and passwords are used only in the current backup-screen session and sent to the HTTPS service you specify; they are not written into the ledger or backups. Apple and your Apple account settings manage iCloud. The publisher does not receive your WebDAV credentials and cannot use the app to access ledgers in your private cloud storage. Cloud and sharing services may retain files, IP addresses, access times or request metadata under their own policies. Use services you trust and review their policies. iCloud uploads and downloads may take time to complete.
 
 3. Pro purchases and restoration
-Aiya Pro is an optional, non-consumable one-time Apple In-App Purchase with no automatic renewal. Apple StoreKit handles purchases, restoration and transaction verification. The app determines access from system-verified transactions, including revocations or refunds. Purchasing does not upload your ledger to Apple.
+Aiya Pro offers a lifetime purchase or automatically renewing monthly and yearly subscriptions through Apple In-App Purchase. The store confirms prices and periods. Cancel renewal in Apple subscription management; access continues until the paid period ends. Lifetime purchases do not renew, existing lifetime access remains valid, and buying lifetime does not cancel an existing subscription. Apple StoreKit handles purchasing, restoration and transaction verification. Access relies on system-verified transactions and validity, including refunds, revocations and expiration. Purchasing does not upload your ledger to Apple. Expiration does not delete ledger data or prevent backup and export.
 The app does not read or store Apple account passwords, payment card numbers or banking payment credentials. Purchase credentials and Pro access are not stored in ledger backups. Restoring a ledger does not grant Pro. Previous purchases can be restored in Settings > Aiya Pro. Apple processes store accounts, transactions and payments under its own policies.
 
 4. Optional local notifications
